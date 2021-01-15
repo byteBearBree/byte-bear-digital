@@ -1,0 +1,25 @@
+.nickname,
+.position {
+  margin: 0;
+}
+
+.nickname {
+  font-weight: 500;
+  line-height: 1.3em;
+  font-size: 1.5em;
+}
+
+.position {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.author-img {
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.about-content {
+  margin-top: 5%;
+}

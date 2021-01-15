@@ -1,0 +1,17 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+@import url("https://use.typekit.net/fyf8qwt.css");
+
+$brandon: "brandon-grotesque", sans-serif;
+
+$primary: #525ddc;
+$jungle: #0c3c42;
+$green: #015654;
+$rose: #fbddd4;
+$apricot: #fac2ac;
+$white: #fbfbf9;
+$pure-white: #fff;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;

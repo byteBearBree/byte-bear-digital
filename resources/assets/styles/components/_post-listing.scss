@@ -1,0 +1,32 @@
+.post-listing--wrapper {
+  margin-bottom: 30px;
+
+  .blog-item--title {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+    a {
+      color: $jungle;
+      font-size: 1.3em;
+      line-height: 1em;
+      margin-bottom: 0px;
+    }
+  }
+
+  .blog-item__meta {
+    margin-bottom: .25rem;
+    
+    a {
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $jungle;
+    }
+  }
+
+  .blog-item__excerpt {
+      
+    .blog-item__excerpt-link {
+        display: block;
+    }
+  }
+}

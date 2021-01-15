@@ -1,0 +1,61 @@
+.banner {
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid $jungle;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  padding: 0 0.5em 0 0.5em;
+  color: #000;
+  font-size: 1em;
+
+  &:hover {
+    color: $rose;
+  }
+}
+
+img.site-logo {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mini-logo {
+  width: 30px !important;
+}
+
+.menu-primary-container {
+  vertical-align: middle;
+}
+
+.brand-image {
+  text-align: center;
+  margin: 0 auto;
+}
+
+// @media (max-width: 575.98px) { ... }
+
+// // Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) { ... }
+
+// // // Medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) {
+//   img.site-logo {
+//     width: 75%;
+//     border: 1px solid red;
+//     margin: 0 auto;
+//   }
+// }
+
+// // // Large devices (desktops, less than 1200px)
+// @media (min-width: 140098px) {
+//   img.site-logo {
+//     width: 70%;
+//     border: 1px solid blue;
+//     margin: 0 auto;
+//   }
+// }
