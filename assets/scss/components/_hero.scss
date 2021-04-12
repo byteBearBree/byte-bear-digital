@@ -1,0 +1,13 @@
+.hero {
+  .hero-full {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  &.image {
+    width: 100%;
+  }
+  &.hero-full-text {
+    width: 80%;
+    padding: 50px 0;
+  }
+}

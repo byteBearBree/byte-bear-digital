@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $lex;
+  color: $text;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: $medium;
+  min-height: 100%;
+}

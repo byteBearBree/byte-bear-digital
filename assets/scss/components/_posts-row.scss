@@ -1,0 +1,13 @@
+.blog-section {
+  margin-bottom: 125px;
+  .post-title {
+    font-size: 1.65em;
+    a {
+      color: $text;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
