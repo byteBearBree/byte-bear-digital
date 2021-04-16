@@ -9,9 +9,10 @@
 
 get_header();
 ?>
-	<article>
+	<article class="container">
 		<header>
-			<h1><?php the_title(); ?></h1>
+			<?php get_template_part( 'includes/partials/hero' );?>
+
 		</header>
 		<?php the_content(); ?>
 	</article>

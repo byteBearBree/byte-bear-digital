@@ -25,6 +25,7 @@ const srcJsFiles = [
   //`./node_modules/babel-polyfill/dist/polyfill.js`,
   `${srcJsDir}/scripts/common.js`,
   `${srcJsDir}/scripts/projectCard.js`,
+  `${srcJsDir}/scripts/primary-navigation.js`,
 ];
 const destCss = "css";
 const destJs = "js";

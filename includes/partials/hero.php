@@ -43,11 +43,15 @@
   </div>
   <?php endif; ?>
   <!-- Full text hero-->
-  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
     <?php if ($hero_type === 'hero-full-text') :?>
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
     <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
       <h1 class="hero-full display-4 lh-1"><?php echo $tagline; ?></h1>
+      <?php if($hero_content) :?>
+        <p class="lead"><?php echo $hero_content; ?></p>
+      <?php endif; ?>
+    </div>
+    
     </div>
     <?php endif; ?>
-  </div>
 </div>

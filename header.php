@@ -29,9 +29,10 @@
 					array(
 						'theme_location'  => 'primary',
 						'container'       => '',
-						'menu_class'      => 'nav col-12 col-md-auto mb-0 justify-content-center mb-md-0',
+						'menu_class'      => 'nav main-menu-container col-12 col-md-auto mb-0 justify-content-center mb-md-0',
 						'container_class' => 'main-menu-container',
-						'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+						'add_li_class'  => 'px-3 menu-item',
+						'items_wrap'      => '<ul class="text-center %2$s">%3$s</ul>',
 						'fallback_cb'     => false,
 					)
 					);

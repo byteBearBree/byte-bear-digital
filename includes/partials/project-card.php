@@ -26,15 +26,15 @@ if( $projects->have_posts() ) :
         $post_categories = get_the_category($projects->ID);
         
         // var_dump($post_categories[0] -> cat_name) ?>
-      <div class="col-md-6 mb-5 col-sm-12 project-card" id="project-card">
+      <div class="col-md-6 mb-5 col-sm-12 card-wrapper" id="project-card">
         <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg"
           style="background-image: url('<?php echo $backgroundImg[0]; ?>');" >
-          <div class="project-content-wrapper d-flex flex-column h-100">
-            <a href="<?php echo $project_link; ?>" class="project-content pb-3 p-5 h-100">
+          <div class="d-flex flex-column h-100">
+            <a href="<?php echo $project_link; ?>" class="card-content pb-3 p-5 h-100">
               <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                 <?php echo $project_title; ?>
               </h2>
-            <div class="project-meta ">
+            <div class="card-meta ">
             <ul class="list-unstyled  d-flex mt-auto">
              <li class="me-auto">
                   <img src="wp-content/themes/byte-bear-digital/assets/images/logo-trans.png" alt="Bootstrap" width="32"

@@ -1,28 +1,23 @@
-.project-section {
-  margin-bottom: 75px;
-  .project-row {
-    .project-card {
-      height: 350px;
-      .card-cover {
-        background-size: cover;
-        border: none;
-      }
-      .project-content {
-        .project-meta {
-          position: relative;
-          bottom: -50px;
-          height: 100px;
-          width: 100%;
-        }
-        opacity: 0;
-        color: #fff;
-        text-decoration: none;
-        &:hover {
-          opacity: 1;
-          transition: all ease-in-out 0.5s;
-          background: linear-gradient(to left, #74ebd5, #acb6e5);
-        }
-      }
+.card-wrapper {
+  height: 350px;
+  .card-cover {
+    background-size: cover !important;
+    border: none;
+  }
+  .card-content {
+    .card-meta {
+      position: relative;
+      bottom: -50px;
+      height: 100px;
+      width: 100%;
+    }
+    opacity: 0;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      opacity: 1;
+      transition: all ease-in-out 0.5s;
+      background: linear-gradient(to left, #74ebd5, #acb6e5);
     }
   }
 }

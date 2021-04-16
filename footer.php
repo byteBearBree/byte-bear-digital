@@ -35,7 +35,7 @@ $site_logo = get_field('site_logo', 'options');
                 <h4 class="contact-heading">Navigation</h4>
                 <?php wp_nav_menu(
 					array(
-						'theme_location'  => 'primary',
+						'theme_location'  => 'footer',
 						'container'       => '',
 						'menu_class'      => 'nav flex-column footer-nav',
 						'container_class' => '',
